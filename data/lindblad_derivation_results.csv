@@ -1,0 +1,13 @@
+alpha,beta_predicted,beta_formula,deviation_from_unity,physical_interpretation
+0.000,1.000,1 - alpha/2,0.000,Ideal Markovian case (white noise)
+0.050,0.975,1 - alpha/2,0.025,Very weak temporal correlations
+0.100,0.950,1 - alpha/2,0.050,Weak temporal correlations
+0.138,0.931,1 - alpha/2,0.069,LIGO ringdown regime (measured)
+0.150,0.925,1 - alpha/2,0.075,Moderate temporal correlations
+0.200,0.900,1 - alpha/2,0.100,Strong temporal correlations
+0.296,0.852,1 - alpha/2,0.148,IBM Quantum regime (measured)
+0.300,0.850,1 - alpha/2,0.150,Strong temporal correlations
+0.400,0.800,1 - alpha/2,0.200,Very strong temporal correlations
+0.500,0.750,1 - alpha/2,0.250,Subdiffusive regime
+1.000,0.500,1 - alpha/2,0.500,1/f noise (pink noise)
+2.000,0.000,1 - alpha/2,1.000,1/f^2 noise (Brownian)

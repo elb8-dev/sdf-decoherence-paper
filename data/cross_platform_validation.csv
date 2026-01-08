@@ -1,0 +1,6 @@
+platform,beta,sigma_beta,alpha_inferred,n_configurations,method,status,reference_phase,notes
+IBM Quantum,0.852,0.017,0.296,42,Hardware measurement,FIT(hw),Phase 13C,"ibm_fez backend, 8 state types"
+LIGO GWTC,0.931,0.003,0.138,38,Ringdown fitting,FIT(obs),Phase 15/21,"GWTC-1/2/3 BBH events, weighted mean"
+IonQ (simulated),0.940,0.020,0.120,8,Noise model simulation,PRED,Phase 17A,"Based on IonQ noise characteristics"
+Quantinuum (simulated),0.970,0.010,0.060,8,Noise model simulation,PRED,Phase 17B,"Based on Quantinuum H1 specs"
+Ideal Simulation,1.000,0.000,0.000,N/A,Numerical limit,THM,Limit,"Limit case: no noise"
