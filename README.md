@@ -1,6 +1,6 @@
 # SDF: Universal Stretched-Exponential Decoherence
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186310.svg)](https://doi.org/10.5281/zenodo.18186310)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Paper
@@ -112,12 +112,14 @@ python scripts/validate_all.py
 If you use this data or code, please cite:
 
 ```bibtex
-@article{becerra2026sdf,
-  author = {Becerra Daly, Eloy R.},
+@software{becerra2026sdf,
+  author = {Becerra Daly, Eloy René},
   title = {SDF: Universal Stretched-Exponential Decoherence from Quantum to Gravitational Scales},
   year = {2026},
-  doi = {10.5281/zenodo.XXXXXXX},
-  note = {Preprint}
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.18186310},
+  url = {https://doi.org/10.5281/zenodo.18186310},
+  version = {v1.0.0}
 }
 ```
 
