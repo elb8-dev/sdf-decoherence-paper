@@ -1,0 +1,143 @@
+{
+    "title": "SDF Universal Decoherence: Theoretical Framework for Structure-Dependent Quantum Decoherence",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p><strong>SDF Universal Decoherence: Theoretical Framework for Structure-Dependent Quantum Decoherence</strong></p><p><em>Eloy Becerra Daly</em></p><p>This paper presents the Structure-Dependent Function (SDF) Universal Decoherence framework, a comprehensive theoretical model that derives quantum decoherence rates from the structural complexity of physical systems.</p>",
+    "creators": [
+        {
+            "name": "Becerra Daly, Eloy",
+            "orcid": "0009-0008-6684-6726"
+        }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "language": "eng",
+    "keywords": [
+        "quantum decoherence",
+        "structure-dependent function",
+        "SDF framework",
+        "quantum-to-classical transition",
+        "density matrix formalism",
+        "Lindblad equation",
+        "quantum optics",
+        "condensed matter",
+        "quantum gravity",
+        "quantum thermodynamics",
+        "decoherence rates",
+        "environmental coupling",
+        "structural complexity",
+        "quantum coherence",
+        "open quantum systems",
+        "quantum measurement",
+        "theoretical physics",
+        "quantum foundations",
+        "experimental protocols",
+        "falsifiability",
+        "universal decoherence"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "10.1103/RevModPhys.75.715",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/RevModPhys.76.1267",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1007/978-3-540-35775-9",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/PhysRevLett.77.4887",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1038/nature02377",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/PhysRevLett.123.080401",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/RevModPhys.89.015001",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1038/nphys1994",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/RevModPhys.84.1655",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/PhysRevLett.117.170401",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1038/s42254-019-0090-2",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/PhysRevD.26.1862",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1007/BF02345020",
+            "relation": "cites",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/RevModPhys.93.035008",
+            "relation": "cites",
+            "scheme": "doi"
+        }
+    ],
+    "subjects": [
+        {
+            "term": "quantum mechanics",
+            "identifier": "http://eurovoc.europa.eu/3055",
+            "scheme": "url"
+        },
+        {
+            "term": "quantum optics",
+            "identifier": "http://eurovoc.europa.eu/3475",
+            "scheme": "url"
+        },
+        {
+            "term": "condensed matter physics",
+            "identifier": "http://eurovoc.europa.eu/8534",
+            "scheme": "url"
+        },
+        {
+            "term": "nuclear physics",
+            "identifier": "http://eurovoc.europa.eu/1893",
+            "scheme": "url"
+        },
+        {
+            "term": "thermodynamics",
+            "identifier": "http://eurovoc.europa.eu/1896",
+            "scheme": "url"
+        },
+        {
+            "term": "particle physics",
+            "identifier": "http://eurovoc.europa.eu/1894",
+            "scheme": "url"
+        }
+    ],
+    "notes": "Copyright 2025 Eloy Becerra Daly. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)."
+}
