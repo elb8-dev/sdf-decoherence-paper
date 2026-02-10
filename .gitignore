@@ -50,3 +50,11 @@ Thumbs.db
 # Temporary
 *.tmp
 *.temp
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*Notes.bib

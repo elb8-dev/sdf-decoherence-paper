@@ -1,33 +1,48 @@
 # SDF: Universal Stretched-Exponential Decoherence
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186310.svg)](https://doi.org/10.5281/zenodo.18186310)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186309.svg)](https://doi.org/10.5281/zenodo.18186309)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Paper
 
-**Title:** SDF: Universal Stretched-Exponential Decoherence from Quantum to Gravitational Scales
+**Title:** Multi-State Validation and Anti-Quantum Extension of Universal Stretched-Exponential Decoherence: From IBM Quantum Hardware to Gravitational Scales
 
-**Author:** Eloy R. Becerra Daly (Independent Researcher, Spain)
+**Author:** Eloy René Becerra Daly (Independent Researcher, Spain)
 
 **Contact:** daly@icam.es
+
+**Paper:** 40 pages, 8 figures, 30 tables, 6 appendices, 46 references
 
 ---
 
 ## Abstract
 
-We present a universal stretched-exponential decoherence law $D(\gamma) = L[1 - \exp(-(\gamma/\tau)^\beta)]$ validated across five experimental platforms spanning quantum to gravitational scales. The key parameter $\beta$ characterizes deviations from pure exponential decay ($\beta = 1$), with the theoretical relation $\beta = 1 - \alpha/2$ derived rigorously from Lindblad master equations.
+I establish that the degradation functional $D(\gamma) = L[1 - \exp(-(\gamma/\tau)^\beta)]$ is the *unique* solution to a physically motivated first-order ODE, providing a universal stretched-exponential description of decoherence across all tested physical scales. The key parameter $\beta$ characterizes deviations from pure exponential decay ($\beta = 1$), with the theoretical relation $\beta = 1 - \alpha/2$ derived rigorously from Lindblad master equations with Lévy-stable noise.
 
 ### Key Results
 
 | Platform | β | σ(β) | Significance |
 |----------|---|------|--------------|
 | **IBM Quantum** | 0.852 | ±0.028 | 5.2σ from β=1 |
-| **LIGO GWTC-3** | 0.931 | ±0.005 | 13.8σ from β=1 |
-| Ion traps | 0.94 | ±0.02 | — |
+| **LIGO GWTC-1/2/3** | 0.931 | ±0.003 | 13.8σ from β=1 |
+| IonQ | 0.94 | ±0.02 | — |
 | Quantinuum | 0.97 | ±0.01 | — |
 | Simulation | 1.00 | ±0.001 | Theoretical limit |
 
-The consistent observation of $\beta < 1$ across independent platforms suggests a universal mechanism connecting quantum decoherence to emergent gravitational phenomena.
+### Theoretical Contributions
+
+- **Axiomatic foundation:** D(γ) derived from Picard–Lindelöf existence and uniqueness (19 theorems, 4 conjectures)
+- **Information geometry:** Decoherence embedded in Bures–Uhlmann manifold; geodesic curvature κ_g ∝ |1−β|
+- **Entropic phase space:** Metric signature (2,d) with decoherence and entropy as timelike dimensions
+- **Biological extension:** Diffusion–decoherence correspondence β_SDF = α_diff/2; Λ-hierarchy produces biological scales
+- **Information conservation:** Exact D + C = 1 verified on hardware
+- **Emergent gravity:** G_eff(r) = G·D(r/ℓ_P) regularises singularities; dark matter candidate M_min ≈ 6 ng
+- **Entropic duality:** Every coalescence decomposes into anti-entropic product (β_f → 1) and entropic medium (β_M < 1)
+- **Anti-quantum irreversibility:** D × D̄ > 0 formalized with spectral predictions
+
+### Multi-Scale Hierarchy
+
+τ(Λ) = τ_P/Λ validated across nuclear (3,558 nuclei), atomic (118 elements), and molecular (38 bond types) scales, spanning 10⁻⁴⁴–10¹⁷ s.
 
 ---
 
@@ -36,10 +51,10 @@ The consistent observation of $\beta < 1$ across independent platforms suggests 
 ```
 sdf-decoherence-paper/
 ├── paper/
-│   └── SDF_Universal_Decoherence_Becerra_Daly.pdf   # Full manuscript
+│   └── SDF_Universal_Decoherence_Becerra_Daly.pdf   # Full manuscript (40 pp)
 ├── data/
 │   ├── ibm_quantum_fits.csv           # IBM Quantum hardware (42 configurations)
-│   ├── ligo_ringdown_38events.csv     # LIGO GWTC-3 ringdown (38 BBH events)
+│   ├── ligo_ringdown_38events.csv     # LIGO GWTC-1/2/3 ringdown (38 BBH events)
 │   ├── ligo_catalog_full.csv          # Full GWTC catalog with physical parameters
 │   ├── cross_platform_validation.csv  # β measurements across 5 platforms
 │   └── lindblad_derivation_results.csv # Theoretical β-α values
@@ -107,19 +122,45 @@ python scripts/validate_all.py
 
 ---
 
+## Changelog
+
+### v1.1.0 (2026-02-10)
+
+**Revised and expanded edition.** 148 issues resolved (7 critical, 7 mathematical, 29 cross-references, 12 bibliographic). Major additions:
+
+- **§2b Information Geometry:** Bures–Uhlmann manifold embedding, Fisher metric, geodesic curvature characterisation
+- **§2c Biological Extension:** Λ-hierarchy at biological scales, diffusion–decoherence correspondence, protein folding predictions
+- **§11 Gravitational Connections:** Significantly expanded — entropic duality, spatial decoherence operator, triple signature transition
+- **§12 Anti-Quantum Irreversibility:** Formalised D × D̄ > 0 with spectral predictions
+- **Appendix D:** Negative results documentation
+- **Appendix E:** Complete LIGO GWTC-1/2/3 catalog (38 events)
+- **Appendix F:** Formal information conservation proofs
+- **Symbol ξ** introduced for β(n) scaling exponent (resolving α overloading)
+- All cross-references converted to LaTeX `\ref{}` (29 edits)
+- Full bibliography audit: 46 entries, all cited, DOIs added
+- Convention footnote clarifying β_SDF = β_Lindblad/2
+
+### v1.0.0 (2026-01-08)
+
+- Initial release: 32 pages, 9 figures, 3 appendices
+
+---
+
 ## Citation
 
 If you use this data or code, please cite:
 
 ```bibtex
 @software{becerra2026sdf,
-  author = {Becerra Daly, Eloy René},
-  title = {SDF: Universal Stretched-Exponential Decoherence from Quantum to Gravitational Scales},
+  author = {Becerra Daly, Eloy Ren\'{e}},
+  title = {Multi-State Validation and Anti-Quantum Extension of Universal
+           Stretched-Exponential Decoherence: From {IBM} Quantum Hardware
+           to Gravitational Scales},
   year = {2026},
   publisher = {Zenodo},
-  doi = {10.5281/zenodo.18186310},
-  url = {https://doi.org/10.5281/zenodo.18186310},
-  version = {v1.0.0}
+  doi = {10.5281/zenodo.18186309},
+  url = {https://doi.org/10.5281/zenodo.18186309},
+  version = {v1.1.0}
 }
 ```
 
@@ -135,7 +176,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ---
 
-## Acknowledgments
+## Acknowledgements
 
 - IBM Quantum for hardware access
 - LIGO Scientific Collaboration and Virgo Collaboration for public gravitational wave data (GWOSC)
@@ -147,5 +188,5 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 For questions or collaborations:
 
-**Eloy R. Becerra Daly**  
+**Eloy René Becerra Daly**  
 Email: daly@icam.es
