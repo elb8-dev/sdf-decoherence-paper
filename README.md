@@ -9,7 +9,8 @@
 
 *Previously: SDF: Universal Stretched-Exponential Decoherence*
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186309.svg)](https://doi.org/10.5281/zenodo.18186309)
+[![Concept DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186309.svg)](https://doi.org/10.5281/zenodo.18186309)
+[![v2.0.0](https://img.shields.io/badge/v2.0.0-10.5281%2Fzenodo.22068343-blue)](https://doi.org/10.5281/zenodo.22068343)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Paper
@@ -167,9 +168,9 @@ If you use this data or code, please cite:
            to Gravitational Scales},
   year = {2026},
   publisher = {Zenodo},
-  doi = {10.5281/zenodo.18186309},
-  url = {https://doi.org/10.5281/zenodo.18186309},
-  version = {v1.1.0}
+  doi = {10.5281/zenodo.22068343},
+  url = {https://doi.org/10.5281/zenodo.22068343},
+  version = {v2.0.0}
 }
 ```
 
