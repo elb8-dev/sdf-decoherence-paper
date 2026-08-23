@@ -58,3 +58,10 @@ Thumbs.db
 *.out
 *.toc
 *Notes.bib
+# Volcados de trabajo de la API de Zenodo y copias de seguridad locales.
+# El unico metadato canonico es .zenodo.json en la raiz.
+zenodo_current.json
+zenodo_draft.json
+zenodo_update.json
+zenodo_update_v2.json
+*.bak

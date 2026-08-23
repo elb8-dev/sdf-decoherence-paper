@@ -1,4 +1,13 @@
-# SDF: Universal Stretched-Exponential Decoherence
+# A Kohlrausch or Weibull Exponent Below One Admits a Classical Mixture
+
+> **v2.0.0 — consolidated edition.** Merges the three papers of the programme into one
+> document, reordered by logical dependency. See `RELEASE_NOTES_v2.0.0.md` for what this
+> version **retracts**: the overclaim that a fitted exponent certifies classicality (it
+> certifies *compatibility* with it), the LIGO significance (12.5σ, and our own first
+> correction was worse than the number it corrected), and Axiom 3, relabelled from theorem
+> to empirical postulate.
+
+*Previously: SDF: Universal Stretched-Exponential Decoherence*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186309.svg)](https://doi.org/10.5281/zenodo.18186309)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)

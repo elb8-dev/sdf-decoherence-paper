@@ -1,11 +1,12 @@
 {
-    "title": "SDF Universal Decoherence: Theoretical Framework for Structure-Dependent Quantum Decoherence",
+    "title": "A Kohlrausch or Weibull Exponent Below One Admits a Classical Mixture: Pollard's Criterion as a Licence Condition, Two Predictions Refutable Against Existing Literature, and a Self-Audit of the Framework That Produced Them",
+    "version": "v2.0.0",
     "upload_type": "publication",
     "publication_type": "preprint",
-    "description": "<p><strong>SDF Universal Decoherence: Theoretical Framework for Structure-Dependent Quantum Decoherence</strong></p><p><em>Eloy Becerra Daly</em></p><p>This paper presents the Structure-Dependent Function (SDF) Universal Decoherence framework, a comprehensive theoretical model that derives quantum decoherence rates from the structural complexity of physical systems.</p>",
+    "description": "<p><strong>Consolidated edition.</strong> This version merges the three previous papers of the programme into a single document, reordered by logical dependency rather than chronology so that the surviving core is separable from the speculation built on it. 63 pages, 26 sections in 7 parts, 8 appendices.</p><p><em>Eloy Ren&eacute; Becerra Daly</em></p><h3>What is established, in decreasing order of confidence</h3><ul><li><strong>[EXACT] Identities.</strong> The &Lambda;-hierarchy reduces to &tau; = &hbar;/E and &ell; = the reduced Compton wavelength. The accessible information satisfies I<sub>Q</sub> = (&gamma;/&tau;)<sup>&beta;</sup> exactly. A distinguished point at D/L = 1/2 carries four coincident properties &mdash; exactly one bit, the entanglement sudden-death point for C<sub>0</sub> = 1, the maximum of D&middot;C&#772; at L&sup2;/4, and a Bures arc of &pi;/3 &mdash; all invariant in &beta;, &tau; and L.</li><li><strong>[OBS] Verification.</strong> D + C = 1 holds to machine precision across 650 circuits on two IBM backends and ~5.5&times;10<sup>6</sup> shots.</li><li><strong>[THM] Limits.</strong> A no-go theorem shows the temporal exponent of dephasing is independent of the pulse-sequence filter, which removes the derivation previously claimed for Axiom 3 and relabels it as an empirical postulate.</li><li><strong>[THM] The transferable result.</strong> Pollard's criterion used as a <em>licence condition</em>: &beta; &le; 1 certifies that the curve admits a positive rate density, &beta; &gt; 1 proves that none exists. In reliability engineering an infant-mortality exponent licenses reading the batch as heterogeneous, while a wear-out exponent forbids it under any partition. Six transfers are registered, each with the observation that would retire it.</li></ul><h3>The inference this work does not license</h3><p>A fitted &beta; &lt; 1 is <strong>not</strong> evidence of quantum behaviour. The theorem establishes representability of the curve, not identification of the mechanism &mdash; the map from mechanism to curve is many-to-one &mdash; so what follows is weaker and sufficient: the data cannot be adduced as evidence of coherence, because a classical account of them exists.</p><h3>The decisive test, which is not performed here</h3><p>On a single sample, the anomalous-diffusion exponent and the stretched-relaxation exponent must satisfy &beta; = (1 + &alpha;<sub>diff</sub>)/2, with &beta; &ge; 1/2 as a corollary. Both quantities are already tabulated in the NMR relaxometry and diffusion-imaging literature for overlapping sample sets. <strong>No new experiment is required to attempt this refutation.</strong></p><h3>Errata to previous versions</h3><p>The critical qubit number is n* = 1.848, not 2.6. The LIGO ringdown significance, with the internal error scaled by &radic;(&chi;&sup2;/&nu;) = 1.669 as the catalogue's own goodness of fit requires, is 12.5&sigma;; we record that our first correction of it, 20.9&sigma;, was itself wrong for neglecting that scaling, and that the originally published 13.8&sigma; was closer to the defensible value than our correction. A reported 18 kHz emergence mode lies below the Rayleigh limit of its own data. The published comoving density of remnants corresponds to &Omega; = 0.063, not the 0.12 it is stated to reproduce.</p><h3>Endpoint, labelled CONJ throughout</h3><p>The programme closes with a dark-matter candidate: Planck-scale black-hole remnants at M<sub>min</sub> = m<sub>P</sub>/(2&radic;&pi;) = 6.140 &micro;g, an exact identity rather than the approximation 0.28 m<sub>P</sub> under which it was published. Evaluating it shows the usual dismissal to be right for the wrong reason: the remnant carries 148.6 J at galactic velocity and one transit is expected per 0.86 km&sup2;&middot;yr, so rarity is not the obstacle; but the mean free path in rock is 10<sup>23</sup> light years and the probability of one interaction while crossing the Earth is 10<sup>-32</sup>. The candidate is cross-section-limited, not exposure-limited, and the two demand opposite experiments. Four falsifiers are given, two requiring no new instrument.</p><h3>Reproducibility</h3><p>Every numerical claim is recomputed from the equations by a dependency-free implementation: <strong>354 regression tests and 37 published-number checks</strong>, over a registry of 138 equations each carrying source, evidence level and declared domain. Where a published number could not be reproduced it is recorded as an erratum rather than adjusted; where a correction of ours proved wrong it is recorded as such. The register documents 27 inconsistencies, of which <strong>11 remain open</strong>, each with the observation that would close it.</p>",
     "creators": [
         {
-            "name": "Becerra Daly, Eloy",
+            "name": "Becerra Daly, Eloy René",
             "orcid": "0009-0008-6684-6726"
         }
     ],
@@ -13,131 +14,69 @@
     "license": "cc-by-4.0",
     "language": "eng",
     "keywords": [
+        "stretched exponential",
+        "Kohlrausch-Williams-Watts",
+        "complete monotonicity",
+        "Bernstein theorem",
+        "Laplace transform",
+        "rate distribution",
         "quantum decoherence",
-        "structure-dependent function",
-        "SDF framework",
-        "quantum-to-classical transition",
-        "density matrix formalism",
-        "Lindblad equation",
-        "quantum optics",
-        "condensed matter",
-        "quantum gravity",
-        "quantum thermodynamics",
-        "decoherence rates",
-        "environmental coupling",
-        "structural complexity",
-        "quantum coherence",
         "open quantum systems",
-        "quantum measurement",
-        "theoretical physics",
-        "quantum foundations",
-        "experimental protocols",
+        "filter function",
+        "no-go theorem",
+        "consistency audit",
+        "reproducibility",
         "falsifiability",
-        "universal decoherence"
+        "erratum",
+        "Weibull shape parameter",
+        "reliability engineering",
+        "survival analysis",
+        "NMR relaxometry",
+        "diffusion-weighted imaging",
+        "anomalous diffusion",
+        "generalized Langevin equation",
+        "glassy dynamics",
+        "dielectric relaxation",
+        "black-hole remnants",
+        "macroscopic dark matter"
     ],
     "related_identifiers": [
         {
-            "identifier": "10.1103/RevModPhys.75.715",
-            "relation": "cites",
+            "identifier": "10.5281/zenodo.18598735",
+            "relation": "isNewVersionOf",
+            "resource_type": "publication-preprint",
             "scheme": "doi"
         },
         {
-            "identifier": "10.1103/RevModPhys.76.1267",
-            "relation": "cites",
+            "identifier": "10.5281/zenodo.18186310",
+            "relation": "isPreviousVersionOf",
+            "resource_type": "publication-preprint",
             "scheme": "doi"
         },
         {
-            "identifier": "10.1007/978-3-540-35775-9",
+            "identifier": "10.1007/BF01646092",
             "relation": "cites",
+            "resource_type": "publication-article",
             "scheme": "doi"
         },
         {
-            "identifier": "10.1103/PhysRevLett.77.4887",
+            "identifier": "10.1088/1126-6708/2007/09/120",
             "relation": "cites",
+            "resource_type": "publication-article",
             "scheme": "doi"
         },
         {
-            "identifier": "10.1038/nature02377",
+            "identifier": "10.1038/nphys1202",
             "relation": "cites",
+            "resource_type": "publication-article",
             "scheme": "doi"
         },
         {
-            "identifier": "10.1103/PhysRevLett.123.080401",
+            "identifier": "10.1088/0034-4885/77/9/094001",
             "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1103/RevModPhys.89.015001",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1038/nphys1994",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1103/RevModPhys.84.1655",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1103/PhysRevLett.117.170401",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1038/s42254-019-0090-2",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1103/PhysRevD.26.1862",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1007/BF02345020",
-            "relation": "cites",
-            "scheme": "doi"
-        },
-        {
-            "identifier": "10.1103/RevModPhys.93.035008",
-            "relation": "cites",
+            "resource_type": "publication-article",
             "scheme": "doi"
         }
     ],
-    "subjects": [
-        {
-            "term": "quantum mechanics",
-            "identifier": "http://eurovoc.europa.eu/3055",
-            "scheme": "url"
-        },
-        {
-            "term": "quantum optics",
-            "identifier": "http://eurovoc.europa.eu/3475",
-            "scheme": "url"
-        },
-        {
-            "term": "condensed matter physics",
-            "identifier": "http://eurovoc.europa.eu/8534",
-            "scheme": "url"
-        },
-        {
-            "term": "nuclear physics",
-            "identifier": "http://eurovoc.europa.eu/1893",
-            "scheme": "url"
-        },
-        {
-            "term": "thermodynamics",
-            "identifier": "http://eurovoc.europa.eu/1896",
-            "scheme": "url"
-        },
-        {
-            "term": "particle physics",
-            "identifier": "http://eurovoc.europa.eu/1894",
-            "scheme": "url"
-        }
-    ],
-    "notes": "Copyright 2026 Eloy Becerra Daly. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)."
+    "notes": "Consolidated edition superseding v1.0.0 and v1.1.0 of this same chain. IMPORTANT CORRECTION TO EARLIER METADATA: the DOI 10.5281/zenodo.18186310 was previously cited in the corpus as a separate concept DOI for a second paper. It is not. Verified against the Zenodo API: it is the version DOI of v1.0.0 of this chain, whose concept DOI is 10.5281/zenodo.18186309. There is no independent deposit for a second paper. The keywords of v1.1.0 described the framework as 'structure-dependent quantum decoherence'; that reading is no longer sustained by the document, which proves that a fitted exponent below one certifies compatibility with a classical mixture, and those keywords are withdrawn."
 }
