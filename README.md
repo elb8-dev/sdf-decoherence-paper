@@ -1,5 +1,10 @@
-# A Kohlrausch or Weibull Exponent Below One Admits a Classical Mixture
+# A Fitted Exponent Is Not the Test — Complete Monotonicity Measured Directly on a Qubit
 
+> **v2.1.0 — the criterion, measured.** Adds the experiment the programme lacked: the
+> criterion applied *directly* to a real decay curve, without fitting. On one device it
+> answers differently in two channels of the same qubit, and it withdraws a way of reading
+> every fitted exponent in the corpus — including our own. See `RELEASE_NOTES_v2.1.0.md`.
+>
 > **v2.0.0 — consolidated edition.** Merges the three papers of the programme into one
 > document, reordered by logical dependency. See `RELEASE_NOTES_v2.0.0.md` for what this
 > version **retracts**: the overclaim that a fitted exponent certifies classicality (it
@@ -10,6 +15,7 @@
 *Previously: SDF: Universal Stretched-Exponential Decoherence*
 
 [![Concept DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186309.svg)](https://doi.org/10.5281/zenodo.18186309)
+[![v2.1.0](https://img.shields.io/badge/v2.1.0-pending%20deposit-lightgrey)](RELEASE_NOTES_v2.1.0.md)
 [![v2.0.0](https://img.shields.io/badge/v2.0.0-10.5281%2Fzenodo.22068343-blue)](https://doi.org/10.5281/zenodo.22068343)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
