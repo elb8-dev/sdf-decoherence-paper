@@ -50,7 +50,7 @@
     ],
     "related_identifiers": [
         {
-            "identifier": "10.5281/zenodo.18598735",
+            "identifier": "10.5281/zenodo.22068343",
             "relation": "isNewVersionOf",
             "resource_type": "publication-preprint",
             "scheme": "doi"
@@ -84,7 +84,13 @@
             "relation": "cites",
             "resource_type": "publication-article",
             "scheme": "doi"
+        },
+        {
+            "identifier": "10.1103/PhysRevLett.103.210401",
+            "relation": "cites",
+            "resource_type": "publication-article",
+            "scheme": "doi"
         }
     ],
-    "notes": "Consolidated edition superseding v1.0.0 and v1.1.0 of this same chain. IMPORTANT CORRECTION TO EARLIER METADATA: the DOI 10.5281/zenodo.18186310 was previously cited in the corpus as a separate concept DOI for a second paper. It is not. Verified against the Zenodo API: it is the version DOI of v1.0.0 of this chain, whose concept DOI is 10.5281/zenodo.18186309. There is no independent deposit for a second paper. The keywords of v1.1.0 described the framework as 'structure-dependent quantum decoherence'; that reading is no longer sustained by the document, which proves that a fitted exponent below one certifies compatibility with a classical mixture, and those keywords are withdrawn."
+    "notes": "Version 2.1.0 adds the measurement that tests the criterion directly, without fitting, and withdraws the reading of any fitted exponent whose goodness of fit was not reported. It also falsifies two predictions of the framework itself (PRED-30.4 and the claim that the Breuer-Laine-Piilo measure follows from a fitted beta), by the protocol those predictions named. Raw counts, the number extractor and the figure generator are versioned; every figure in the new section refuses to be written unless its own numbers match the stored digest. Consolidated edition superseding v1.0.0 and v1.1.0 of this same chain. IMPORTANT CORRECTION TO EARLIER METADATA: the DOI 10.5281/zenodo.18186310 was previously cited in the corpus as a separate concept DOI for a second paper. It is not. Verified against the Zenodo API: it is the version DOI of v1.0.0 of this chain, whose concept DOI is 10.5281/zenodo.18186309. There is no independent deposit for a second paper. The keywords of v1.1.0 described the framework as 'structure-dependent quantum decoherence'; that reading is no longer sustained by the document, which proves that a fitted exponent below one certifies compatibility with a classical mixture, and those keywords are withdrawn."
 }
