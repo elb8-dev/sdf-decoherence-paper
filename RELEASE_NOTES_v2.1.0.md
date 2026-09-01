@@ -1,7 +1,7 @@
 # v2.1.0 — The criterion, measured
 
-**A Fitted Exponent Is Not the Test — Complete Monotonicity Measured Directly on a Qubit**
-*One Channel of One Device Admits a Positive Rate Density and the Other Does Not; Two Predictions Refutable Against Existing Literature; and a Self-Audit of the Framework That Produced Them*
+**One Qubit, Two Verdicts — Pure Dephasing With No Classical Rate Density, Energy Relaxation With One**
+*Complete Monotonicity Measured Without Fitting on Superconducting Hardware; Two Predictions Refutable Against Existing Literature; and a Self-Audit of the Framework That Produced Them*
 
 This is a **minor** version by numbering and a substantive one by content. It adds
 the experiment the programme had been missing and, on the strength of it,
@@ -16,13 +16,16 @@ own. Anyone citing v2.0.0 for a statement about a fitted β should read
 ## Why the title changed, again
 
 The v2.0.0 title stated the theorem: β ≤ 1 admits a classical mixture. The
-theorem is unchanged and remains correct. What changed is that we measured what
-happens when you try to use it the way the corpus had been using it — through a
-fitted exponent — and the answer is that on well-sampled hardware the fit is
-rejected, so its exponent licenses nothing in either direction.
+theorem is unchanged and remains correct. What the new title states is what the
+theorem yields when it is finally applied to a device instead of to a fit of
+one — and the answer is not uniform. **The same qubit gives opposite verdicts in
+its two channels**: energy relaxation is representable as a classical mixture of
+rates, pure dephasing is not.
 
-The new title states that instead, because it is the load-bearing correction and
-because a reader who takes only the title away should take that one.
+An earlier draft of this title led with the correction — *a fitted exponent is
+not the test*. That is true, it is the load-bearing methodological point, and it
+is in the abstract. It is not the title, because a title that reads as an
+erratum buries what a reader outside this framework can use.
 
 ---
 
@@ -97,11 +100,21 @@ survives and receives its first experimental test: 2 of 20 qubits exceed the
 bound at >3σ, of which **one** lies inside its stated hypotheses (β < 1) —
 suggestive after multiplicity, not decisive.
 
+**D44.** PRED-30.4 of §25 predicted that the Breuer–Laine–Piilo measure is
+positive for β < 0.8, and §12 the stronger version: that it can be computed from
+a fitted β without independent spectroscopy. Tested by the very protocol they
+named, both fail. β < 0.8 is neither sufficient (2 of 6 such qubits give N = 0)
+nor necessary (8 qubits above 0.8 give N > 0), and the within-arm correlation is
+−0.299. The decisive comparison is between arms: median β of 0.9011 and 0.9070
+— the same exponent to six thousandths — returning N of 0.00827 and exactly
+0.00000. **A fitted β does not determine N.** This is a prediction of this
+framework, refuted by an experiment this framework designed.
+
 ---
 
 ## Register
 
-Forty-three entries: 21 resolved, 20 open, 1 closed, 1 invalidated. Of the open
+Forty-four entries: 22 resolved, 20 open, 1 closed, 1 invalidated. Of the open
 ones, 13 are high impact. **D40 is closed** by §7b — its stated closing
 condition was a design separating relaxation from dephasing under a single
 definition, which is exactly this one. **D38 and D39 are not closed by it**, and

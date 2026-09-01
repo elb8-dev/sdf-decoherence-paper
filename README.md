@@ -1,4 +1,6 @@
-# A Fitted Exponent Is Not the Test — Complete Monotonicity Measured Directly on a Qubit
+# One Qubit, Two Verdicts
+
+### Pure Dephasing With No Classical Rate Density, Energy Relaxation With One
 
 > **v2.1.0 — the criterion, measured.** Adds the experiment the programme lacked: the
 > criterion applied *directly* to a real decay curve, without fitting. On one device it
