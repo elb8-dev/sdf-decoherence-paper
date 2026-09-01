@@ -1,5 +1,7 @@
 # v2.1.0 — The criterion, measured
 
+**DOI:** [10.5281/zenodo.22238971](https://doi.org/10.5281/zenodo.22238971) · concept DOI `10.5281/zenodo.18186309`
+
 **One Qubit, Two Verdicts — Pure Dephasing With No Classical Rate Density, Energy Relaxation With One**
 *Complete Monotonicity Measured Without Fitting on Superconducting Hardware; Two Predictions Refutable Against Existing Literature; and a Self-Audit of the Framework That Produced Them*
 
