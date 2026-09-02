@@ -1,6 +1,6 @@
-# One Qubit, Two Verdicts
+# The Impedance of Information
 
-### Pure Dephasing With No Classical Rate Density, Energy Relaxation With One
+### One Möbius Coordinate for Decoherence, Entropy and Extractable Work
 
 > **v2.1.0 — the criterion, measured.** Adds the experiment the programme lacked: the
 > criterion applied *directly* to a real decay curve, without fitting. On one device it
@@ -17,6 +17,7 @@
 *Previously: SDF: Universal Stretched-Exponential Decoherence*
 
 [![Concept DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186309.svg)](https://doi.org/10.5281/zenodo.18186309)
+[![v2.2.0](https://img.shields.io/badge/v2.2.0-pending%20deposit-lightgrey)](RELEASE_NOTES_v2.2.0.md)
 [![v2.1.0](https://img.shields.io/badge/v2.1.0-10.5281%2Fzenodo.22238971-blue)](https://doi.org/10.5281/zenodo.22238971)
 [![v2.0.0](https://img.shields.io/badge/v2.0.0-10.5281%2Fzenodo.22068343-blue)](https://doi.org/10.5281/zenodo.22068343)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
