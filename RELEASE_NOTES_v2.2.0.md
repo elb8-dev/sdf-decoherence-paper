@@ -1,5 +1,7 @@
 # v2.2.0 — The Impedance of Information
 
+**DOI:** [10.5281/zenodo.22240350](https://doi.org/10.5281/zenodo.22240350) · concept DOI `10.5281/zenodo.18186309`
+
 **The Impedance of Information — One Möbius Coordinate for Decoherence, Entropy and Extractable Work**
 *Measured from a Superconducting Qubit to a Black-Hole Ringdown; Two Predictions Refutable Against Existing Literature; and a Self-Audit of the Framework That Produced Them*
 
